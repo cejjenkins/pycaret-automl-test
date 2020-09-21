@@ -1,4 +1,4 @@
-name: PyCaret AutoML Git Action
+name: CJ automl for funsies
 on: 
   push :
     branches: [ master ]  
