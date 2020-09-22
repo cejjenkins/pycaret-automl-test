@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: CJ automl for funsies
         id: model
-        uses: pycaret/pycaret-git-actions@automl
+        uses: cejjenkins/pycaret_automl@0.0.2
         with:
           DATASET: "juice"
           TARGET: "Purchase"
