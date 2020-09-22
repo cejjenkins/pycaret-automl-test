@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: PyCaret AutoML Git Action
+      - name: CJ automl for funsies
         id: model
         uses: pycaret/pycaret-git-actions@automl
         with:
